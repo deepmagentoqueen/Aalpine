@@ -1,0 +1,226 @@
+@media(max-width:1199px){
+a.logo img {max-width: 220px;}
+button.menu-toggle{display: block;}
+span.close-btn-menu{display: flex;}
+.main-menu {
+    position: fixed;
+    left: 0;
+    right: 0px;
+    top: -100%;
+    z-index: 9;
+    background: #fff;
+    min-height: 100vh;
+    transition: 0.3s;
+}
+.main-menu.menu-active {top: 0;}
+ul.navbar {
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    gap: 10px;
+}
+h2 {font-size: 26px;}
+h3 {font-size: 20px;}
+}
+@media(max-width:991px){
+h2 {font-size: 24px;}
+h3 {font-size: 18px;}
+h4 {font-size: 17px;}
+.padd-50 {padding: 40px 0;}
+.padd-40 {padding: 30px 0;}
+.pt-40 {padding-top: 30px;}
+.pb-40{padding-bottom: 30px;  }
+.banner .btn {
+    font-size: 15px;
+    padding: 10px;
+    min-width: 140px;
+}
+.seasonal-journey-card:hover .seasonal-card-content {
+    padding: 10px;
+}
+.seasonal-card-content h3 {
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+.holiday-plan .container {
+    padding: 30px 0px;
+}
+.holiday-plan  a.btn {
+    font-size: 15px;
+}
+.sure-left-col {
+    padding: 25px 10px 10px 15px;
+    border-radius: 15px;
+}
+
+span.label {
+    text-align: center;
+}
+.everyone-travel-block {
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.left-col {
+    padding: 15px;
+}
+.left-col .btn {
+    font-size: 15px;
+    min-width: 180px;
+    padding: 10px;
+}
+.blog-section .left-col {
+    padding: 15px;
+}
+.content_section {
+    padding: 20px 0px;
+}
+a.brand-logo img {
+    max-width: 100%;
+}
+.footer-block-bottom {
+    padding: 15px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+.field-set {
+    flex-wrap: wrap;
+}
+.explore-section .container {
+    padding: 25px;
+    border-radius: 20px;
+}
+span.hr, .Priced-packages span.hr {
+  max-width: 590px;
+}
+}
+@media(max-width:767px){
+
+    a.logo img {max-width: 180px;}
+a.header-btn.btn {
+    font-size: 0;
+    padding: 5px;
+    gap: 0;
+}
+h1 {
+    font-size: 28px;
+    line-height: 30px;
+}
+h1 span {
+    font-size: 39px;
+    line-height: 37px;
+}
+h2 {font-size: 22px;}
+.padd-50 {padding: 30px 0;}
+.pt-40 {padding-top: 25px;}
+.pb-40{padding-bottom: 25px;  }
+.padd-40 {padding: 25px 0;}
+.seasonal-journey .row, .not-sure-banner .row, .tour-service .row, .connect-with .row, .footer-block-top .row {
+    row-gap: 20px;
+}
+.height-50 {
+    height: 100%;
+}
+.flex-row {
+    gap: 15px;
+}
+.popular-card-content {
+    padding: 10px 10px 20px;
+}
+.plan-links {
+    gap: 10px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+.not-sure-banner .nav-pills {
+    border-radius: 15px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 15px;
+}
+.not-sure-banner li.nav-item {
+    width: 100%;
+}
+.everyone-travel {
+    padding: 25px 15px;
+}
+.left-col, .blog-section .left-col {
+    padding: 15px 0px;
+}
+.left-col .btn {
+    margin-top: 0px;
+}
+.blog-con {
+    padding: 15px 10px 10px;
+    position: relative;
+}
+.blog-card h5 {
+    font-size: 18px;
+    line-height: normal;
+}
+.find-section {
+    padding: 25px 0px;
+}
+.footer-block {
+    padding-top: 25px;
+}
+.field {
+    width: 100%;
+}
+.banner .btn {
+    padding: 10px;
+    background-image: url(./images/search-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0px;
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    background-size: 24px;
+}
+
+ .tour-days {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+.Priced-packages .dots {
+    min-width: 140px;
+    min-height: 81px;
+}
+.dots {
+    min-width: 90px;
+}
+.nav-pills {
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.owl-nav {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.owl-nav button {
+    width: 30px;
+    height: 30px;
+}
+.tabing-row {
+    flex-wrap: wrap;
+    row-gap: 15px;
+    justify-content: center;
+    text-align: center;
+}
+footer {
+    font-size: 15px;
+}
+span.hr, .Priced-packages span.hr {
+    max-width: 100%;
+}
+
+}

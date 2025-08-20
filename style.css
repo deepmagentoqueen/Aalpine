@@ -943,6 +943,7 @@ p.Caution {
     padding: 18px 16px;
     display: flex;
     align-items: center;
+    gap: 11px;
 }
 .country-flag ul {
     display: flex;
@@ -996,8 +997,8 @@ span.hr {
 }
 .small-banner h2 img {
     position: absolute;
-    top: -6px;
-    left: 100%;
+    top: 0px;
+    left: 80%;
 }
 .small-banner h2 span{
     font-family: 'Brotherhood';
@@ -1021,7 +1022,7 @@ span.hr {
     line-height: 24px;
     padding: 10px;
 }
-.visa-card {
+.visa-card.visa-card-col {
     border: 1px solid #E6E6E6;
     border-radius: 10px;
     margin-bottom: 28px;
@@ -1031,17 +1032,27 @@ span.hr {
     margin-bottom: 6px;
     font-size: 16px;
 }
+.visa-card h4 {
+    margin: 9px 0px 24px 0px;
+}
 .visa-card h4 a {
     padding: 0;
     margin: 0px;
     display: flex;
     align-items: center;
     gap: 5px;
+    justify-content: center;
+}
+.visa-card.visa-card-col h4 a {
+    justify-content: left;
+}
+.visa-card.visa-card-col h4 {
+    margin: 0;
 }
 .visa-step-pic {
     height: 174px;
     display: flex;
-    align-items: anchor-center;
+    align-items: center;
     justify-content: center;
 }
 .visa-step-card {
@@ -1236,6 +1247,9 @@ span.departure-date {
     gap: 40px;
     border-top: 1px solid rgb(0 0 0 / 10%);
 }
+.vitit-tab h4 {
+    margin-bottom: 0;
+}
 .vitit-tab .nav-pills .nav-link{
     padding: 8px 10px;
     border-radius: 30px;
@@ -1259,8 +1273,14 @@ span.departure-date {
 .small-banner .banner-pic {
     min-height: 228px;
 }
-.customize-banner .banner-pic{
-    min-height: 300px;
+.customize-banner .banner-pic {
+    min-height: 535px;
+}
+.customize-banner .field img {
+    position: static;
+}
+.banner-form .field-radio label {
+    text-align: center !important;
 }
 .field {
     width: 100%;
@@ -1302,6 +1322,9 @@ input[type="date"]::-webkit-inner-spin-button,
 input[type="date"]::-webkit-calendar-picker-indicator {
     display: none;
     -webkit-appearance: none;
+}
+.Consultation-pic img {
+    max-width: 100%;
 }
 .visa-from h4 {
     margin-top: 19px;
@@ -1464,6 +1487,7 @@ span.tour-review strong {
     display: flex;
     align-items: flex-start;
     gap: 10px;
+    padding-right: 5px;
 }
 
 .map iframe {
@@ -1681,4 +1705,7 @@ span.discount-label {
     top: auto;
     transform: none;
     bottom: 0px;
+}
+.column-main .row {
+    row-gap: 30px;
 }

@@ -21,6 +21,44 @@ ul.navbar {
 }
 h2 {font-size: 26px;}
 h3 {font-size: 20px;}
+.Enabling-card {
+    padding: 10px;
+    gap: 10px;
+}
+.visa-service .col-md-3 {
+    width: 25%;
+}
+.visa-from form {
+    border-radius: 20px;
+    padding: 25px;
+}
+.Enabling-section .row {
+    row-gap: 25px;
+}
+.think-content {
+    padding: 15px;
+}
+.tour-catagory a {
+    font-size: 11px;
+    padding: 4px 7px;
+    margin-right: 1px;
+    margin-bottom: 5px;
+}
+.nav-pills {
+    gap: 30px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.enquiry {
+    border-radius: 20px;
+    padding: 15px;
+}
+.enquiry .btn {
+  margin: 15px 0px;
+}
+.Incl-exclusion-card {
+    padding: 15px;
+}
 }
 @media(max-width:991px){
 h2 {font-size: 24px;}
@@ -94,6 +132,44 @@ a.brand-logo img {
 span.hr, .Priced-packages span.hr {
   max-width: 590px;
 }
+.small-banner h2 img {
+    left: 85%;
+    max-width: 100px;
+}
+.visa-service .col-md-3 {
+    width: 33.33%;
+}
+.country-flag ul li {
+    width: 16%;
+    padding: 5px;
+}
+.visa-step .row {
+    row-gap: 25px;
+}
+.accordion-body {
+    padding: 15px 30px 28px 30px
+}
+.visa-consultation .row {
+    row-gap: 25px;
+}
+.vitit-tab .nav-pills .nav-link {
+    padding: 5px 7px;
+    min-width: 60px;
+}
+.nav-pills {
+    gap: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.banner .field-set {
+    flex-wrap: nowrap;
+}
+.banner .field-set .field {
+    margin: 2px 0px;
+}
+.package-detil .row {
+    row-gap: 25px;
+}
 }
 @media(max-width:767px){
 
@@ -103,11 +179,11 @@ a.header-btn.btn {
     padding: 5px;
     gap: 0;
 }
-h1 {
+h1, .small-banner h2{
     font-size: 28px;
     line-height: 30px;
 }
-h1 span {
+h1 span, .small-banner h2 span {
     font-size: 39px;
     line-height: 37px;
 }
@@ -222,5 +298,174 @@ footer {
 span.hr, .Priced-packages span.hr {
     max-width: 100%;
 }
-
+.small-banner h2 img {
+    top: 6px;
+    left: 85%;
+    max-width: 80px;
 }
+.Enabling-row {
+    gap: 15px;
+}
+.Enabling-card {
+    width: 100%;
+}
+.country-flag ul li {
+    width: 25%;
+    padding: 5px;
+}
+.visa-service .col-md-3 {
+    width: 100%;
+}
+.visa-consultation .row {
+    row-gap: 25px;
+}
+.field input, .field select {
+    padding: 9px 10px;
+    border-color: #E6E6E6;
+}
+.field-set {
+    gap: 0;
+    margin-top: 0;
+}
+.visa-from h4 {
+    margin-top: 14px;
+    font-size: 17px;
+}
+.visa-step-card {
+    border: 1px solid #E6E6E6;
+    padding: 15px;
+    height: 100%;
+}
+.left-col .btn, .enquiry .btn, button.btn, .sidebar-block .btn {
+    padding: 9px 10px;
+    font-size: 15px;
+}
+button.accordion-button {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 15px;
+}
+.accordion-body {
+    padding: 15px;
+}
+.vitit-tab {
+    gap: 15px;
+    flex-wrap: wrap;
+    padding-top: 25px;
+}
+.nav-pills {
+    justify-content: left;
+    gap: 10px 12px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.think-content {
+    padding: 12px 12px 18px 12px;
+    font-size: 14px;
+}
+.enquiry .btn {
+    margin: 15px 0px 10px;
+}
+.column-main .row {
+    row-gap: 25px;
+}
+.sidebar-block {
+    border: 1px solid #E6E6E6;
+    border-radius: 10px;
+    padding: 15px 18px;
+}
+.toolbar {
+    flex-wrap: wrap;
+    row-gap: 13px;
+    padding-bottom: 17px;
+}
+.banner .field-set {
+    gap: 10px;
+}
+.banner .field img {
+    right: 0;
+}
+.tour-information {
+    padding-bottom: 18px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+.tour-gallery-pic {
+    margin-bottom: 15px;
+}
+.tour-grid .row, .accordion-body .row {
+    row-gap: 15px;
+}
+.tour-explore li {
+    width: 100%;
+    margin-bottom: 15px;
+    padding-right: 0;
+}
+.Itinerary button.accordion-button {
+    font-size: 15px;
+    padding: 10px;
+}
+.Itinerary button.accordion-button.collapsed {
+    padding: 10px;
+}
+.Itinerary button.accordion-button {
+    font-size: 15px;
+    padding: 10px;
+}
+.Itinerary button.accordion-button strong {
+    font-weight: 600;
+    white-space: nowrap;
+    margin-right: 5px;
+}
+.Itinerary .accordion:before {
+    max-height: 95%;
+}
+.package-sidebar .sidebar-block {
+    padding: 18px 15px;
+}
+.main-price {
+   padding: 10px 0px 15px 0px;
+}
+.customize-banner .container.mobile-container {
+    position: absolute;
+    top: 50px;
+    transform: none;
+    padding: 20px 15px;
+}
+.customize-banner .container.desktop-container h2, .customize-banner .container.desktop-container .extra-links {
+    display: none;
+}
+.customize-banner .banner-pic {
+    min-height: 320px;
+}
+.customize-banner .container {
+    position: static;
+    transform: none;
+    margin-top: -30px;
+}
+.banner-form {
+    margin: auto;
+    padding: 15px;
+}
+.banner-form img {
+    max-width: 40px;
+}
+.banner-form button.btn {
+    font-size: 16px;
+    width: 100%;
+    background-image: none;
+}
+.radio {
+    padding: 10px 0px;
+}
+.visa-service .nav-pills .nav-link {
+    gap: 0px;
+    font-size: 15px;
+    padding: 7px 10px;
+}
+.customize-banner .container.mobile-container h2 {
+    font-size: 25px;
+}
+}
+

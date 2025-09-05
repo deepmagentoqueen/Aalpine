@@ -65,6 +65,7 @@ h2 {font-size: 24px;}
 h3 {font-size: 18px;}
 h4 {font-size: 17px;}
 .padd-50 {padding: 40px 0;}
+.pt-50{padding-top: 40px;}
 .padd-40 {padding: 30px 0;}
 .pt-40 {padding-top: 30px;}
 .pb-40{padding-bottom: 30px;  }
@@ -170,6 +171,9 @@ span.hr, .Priced-packages span.hr {
 .package-detil .row {
     row-gap: 25px;
 }
+.contact-card {
+    padding: 20px;
+}
 }
 @media(max-width:767px){
 
@@ -189,6 +193,7 @@ h1 span, .small-banner h2 span {
 }
 h2 {font-size: 22px;}
 .padd-50 {padding: 30px 0;}
+.pt-50{padding-top: 30px;}
 .pt-40 {padding-top: 25px;}
 .pb-40{padding-bottom: 25px;  }
 .padd-40 {padding: 25px 0;}
@@ -466,6 +471,13 @@ button.accordion-button {
 }
 .customize-banner .container.mobile-container h2 {
     font-size: 25px;
+}
+.Contact-us .row, .contact-form .row {
+    row-gap: 25px;
+}
+.professional-section .row {
+    align-items: center;
+    row-gap: 20px;
 }
 }
 
